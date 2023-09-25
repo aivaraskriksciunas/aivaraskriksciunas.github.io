@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Hello World!</title>
+      <title>Pirmas puslapis</title>
       <link>https://aivaraskriksciunas.github.io/posts/hello/</link>
       <pubDate>Mon, 25 Sep 2023 17:11:05 +0300</pubDate>
       
@@ -29,6 +29,7 @@
         
         
           This is the first page written in Hugo
+/** * Updates the record for this card in the database * * @param Flashcard $card * @param User $user * @param boolean $is_correct * @return FlashcardProgress */ public function update_card_progress( Flashcard $card, User $user, bool $is_correct ) { $progress = $this-&amp;gt;get_card_progress( $card, $user ); if ( $is_correct ) { $progress-&amp;gt;ncorrect += 1; } else { $progress-&amp;gt;nwrong += 1; } $progress-&amp;gt;is_last_wrong = !
           
         
         </description>
